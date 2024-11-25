@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;500;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Belanosima', sans-serif;
+}
+
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
